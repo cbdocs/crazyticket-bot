@@ -1,13 +1,16 @@
 Commands
 ========
 
-## Introduction
+Introduction
+------------
 
-### Starting and Stopping Your Show
+Starting and Stopping Your Show
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To start a Hidden Cam show, type /startshow. End the show with /stopshow.
 
-## Commands for All Users
+Commands for All Users
+----------------------
 
 /cmds
 	* Displays a list of commands in the chat window.
@@ -18,7 +21,8 @@ To start a Hidden Cam show, type /startshow. End the show with /stopshow.
 /showtime
 	* Displays the time elapsed since the Hidden Cam show started.
 
-## Commands for Broadcasters and Moderators
+Commands for Broadcasters and Moderators
+----------------------------------------
 
 /add <user>
 	* Manually adds a ticket for the specified user.
@@ -60,4 +64,5 @@ To start a Hidden Cam show, type /startshow. End the show with /stopshow.
 /plistw
 	* Displays a list of paid ticket holders in wide format.
 
-## Commands for Broadcasters Only
+Commands for Broadcasters Only
+------------------------------
