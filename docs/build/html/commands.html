@@ -90,6 +90,14 @@
 <li>Note: If the output from /tickets is saved, it can be pasted after the /add command to restore tickets to users who purchased them.</li>
 </ul>
 </td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">/addtime <var>&lt;minutes&gt;</var></span></kbd></td>
+</tr>
+<tr><td>&#160;</td><td><ul class="first last simple">
+<li>Adds time to a running timer. A negative number will subtract time.</li>
+<li>Subtracting more time than is remaining will stop the timer with 1 minute remaining.</li>
+</ul>
+</td></tr>
 <tr><td class="option-group">
 <kbd><span class="option">/au <var>&lt;user&gt;</var></span></kbd></td>
 <td><ul class="first last simple">
@@ -104,15 +112,35 @@
 </ul>
 </td></tr>
 <tr><td class="option-group">
+<kbd><span class="option">/ctb <var>&lt;text&gt;</var></span></kbd></td>
+<td><ul class="first last simple">
+<li>Sends a one-time, private notice to the broadcaster.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/ctm <var>&lt;text&gt;</var></span></kbd></td>
+<td><ul class="first last simple">
+<li>Sends a one-time, private notice to all moderators.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
 <kbd><span class="option">/ctn <var>&lt;text&gt;</var></span></kbd></td>
 <td><ul class="first last simple">
 <li>Sends a one-time, public notice to the chat.</li>
 </ul>
 </td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">/ctsubject <var>&lt;text&gt;</var></span></kbd></td>
+</tr>
+<tr><td>&#160;</td><td><ul class="first last simple">
+<li>Changes the room subject to the text.</li>
+<li>New subject is displayed with ‘CrazyTicket:’ leader and ‘Type /cmds’ trailer.</li>
+</ul>
+</td></tr>
 <tr><td class="option-group">
-<kbd><span class="option">/ctb <var>&lt;text&gt;</var></span></kbd></td>
+<kbd><span class="option">/ctt <var>&lt;text&gt;</var></span></kbd></td>
 <td><ul class="first last simple">
-<li>Sends a one-time, private notice to the broadcaster.</li>
+<li>Sends a one-time, private notices to all ticket holders.</li>
 </ul>
 </td></tr>
 <tr><td class="option-group">
@@ -146,6 +174,13 @@
 </ul>
 </td></tr>
 <tr><td class="option-group">
+<kbd><span class="option">/newshow</span></kbd></td>
+<td><ul class="first last simple">
+<li>Restarts ticket sales after a show has been ended.</li>
+<li>Does not affect ticket holder lists.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
 <kbd><span class="option">/plist</span></kbd></td>
 <td><ul class="first last simple">
 <li>Displays a list of paid ticket holders.</li>
@@ -157,11 +192,81 @@
 <li>Displays a list of paid ticket holders in wide format.</li>
 </ul>
 </td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/schat</span></kbd></td>
+<td><ul class="first last simple">
+<li>ON/OFF toggle to suppress the public chat so it does not pollute the show chat.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/showend</span></kbd></td>
+<td><ul class="first last simple">
+<li>Suspends ticket sales and clearly indicates to viewers entering the room that although the cam is still hidden, the show is over.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/showover</span></kbd></td>
+<td><ul class="first last simple">
+<li>ON/OFF toggle to signal the show is nearing its end. Viewers entering the room will receive a notice that the show is nearing its end and buying a ticket is not recommended.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/startshow</span></kbd></td>
+<td><ul class="first last simple">
+<li>Starts a Hidden Cam show. Only ticket holders will be able to see the cam feed.</li>
+<li>Chat can still be seen by users without tickets. Notices can be sent to the public chat to advertise the ticket price to join the show.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">/starttimer <var>&lt;minutes&gt;</var></span></kbd></td>
+</tr>
+<tr><td>&#160;</td><td><ul class="first last simple">
+<li>Starts a count down goal timer to indicate a timed ticket buying window to the viewers.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">/subject <var>&lt;text&gt;</var></span></kbd></td>
+</tr>
+<tr><td>&#160;</td><td><ul class="first last simple">
+<li>Changes the room subject to the text entered after the command.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/stopshow</span></kbd></td>
+<td><ul class="first last simple">
+<li>Ends the Hidden Cam show and returns the feed to normal, public operation.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/tipsoff</span></kbd></td>
+<td><ul class="first last simple">
+<li>ON/OFF toggle to suppress the display of total tips received during the ticket show.</li>
+</ul>
+</td></tr>
 </tbody>
 </table>
 </div>
 <div class="section" id="commands-for-broadcasters-only">
 <h2>Commands for Broadcasters Only<a class="headerlink" href="#commands-for-broadcasters-only" title="Permalink to this headline">¶</a></h2>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group" colspan="2">
+<kbd><span class="option">/ctprice <var>&lt;number&gt;</var></span></kbd></td>
+</tr>
+<tr><td>&#160;</td><td><ul class="first last simple">
+<li>Changes the ticket price while CrazyTicket is running.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/ctreset</span></kbd></td>
+<td><ul class="first last simple">
+<li>Clears all ticket holder lists and prepares CrazyTicket to begin sales for a new show.</li>
+</ul>
+</td></tr>
+</tbody>
+</table>
 </div>
 </div>
 

@@ -86,8 +86,7 @@ Commands for Broadcasters and Moderators
 	* ON/OFF toggle to suppress the public chat so it does not pollute the show chat.
 
 /showend
-        * Suspends ticket sales and clearly indicates to viewers entering the room that although the cam is sti
-ll hidden, the show is over.
+        * Suspends ticket sales and clearly indicates to viewers entering the room that although the cam is still hidden, the show is over.
 
 /showover
         * ON/OFF toggle to signal the show is nearing its end. Viewers entering the room will receive a notice that the show is nearing its end and buying a ticket is not recommended.
@@ -97,7 +96,7 @@ ll hidden, the show is over.
 	* Chat can still be seen by users without tickets. Notices can be sent to the public chat to advertise the ticket price to join the show.
 
 /starttimer <minutes>
-	*Starts a count down goal timer to indicate a timed ticket buying window to the viewers.
+	* Starts a count down goal timer to indicate a timed ticket buying window to the viewers.
 
 /subject <text>
 	* Changes the room subject to the text entered after the command.
@@ -116,3 +115,4 @@ Commands for Broadcasters Only
 
 /ctreset
 	* Clears all ticket holder lists and prepares CrazyTicket to begin sales for a new show.
+
