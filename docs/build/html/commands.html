@@ -45,27 +45,58 @@
 </div>
 <div class="section" id="commands-for-all-users">
 <h1>Commands for All Users<a class="headerlink" href="#commands-for-all-users" title="Permalink to this headline">¶</a></h1>
-<p>/cmds - Displays a list of commands in the chat window.
-/pass - Shows the user whether they have a pass or need to purchase one.
-/timeleft - Displays the remaining time if a goal timer has been set.
-/showtime - Displays the time elapsed since the Hidden Cam show started.</p>
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd><span class="option">/cmds</span></kbd></td>
+<td><ul class="first last simple">
+<li>Displays a list of commands in the chat window.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/pass</span></kbd></td>
+<td><ul class="first last simple">
+<li>Shows the user whether they have a pass or need to purchase one.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/timeleft</span></kbd></td>
+<td><ul class="first last simple">
+<li>Displays the remaining time if a goal timer has been set.</li>
+</ul>
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/showtime</span></kbd></td>
+<td><ul class="first last simple">
+<li>Displays the time elapsed since the Hidden Cam show started.</li>
+</ul>
+</td></tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="commands-for-broadcasters-and-moderators">
 <h1>Commands for Broadcasters and Moderators<a class="headerlink" href="#commands-for-broadcasters-and-moderators" title="Permalink to this headline">¶</a></h1>
-<dl class="docutils">
-<dt>/add &lt;user&gt; OR /au &lt;user&gt;</dt>
-<dd><ul class="first last simple">
+<table class="docutils option-list" frame="void" rules="none">
+<col class="option" />
+<col class="description" />
+<tbody valign="top">
+<tr><td class="option-group">
+<kbd><span class="option">/add <var>&lt;user&gt;</var></span></kbd></td>
+<td><ul class="first last simple">
 <li>Manually adds a ticket for the specified user.</li>
 <li>If no user is specified, adds a ticket for the moderator who issued the command.</li>
 <li>Multiple users can be added by listing multiple space-separated usernames, e.g. /add user1 user2.</li>
 <li>Note: If the output from /tickets is saved, it can be pasted after the /add command to restore tickets to users who purchased them.</li>
 </ul>
-</dd>
-</dl>
-<table class="docutils option-list" frame="void" rules="none">
-<col class="option" />
-<col class="description" />
-<tbody valign="top">
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/au <var>&lt;user&gt;</var></span></kbd></td>
+<td><ul class="first last simple">
+<li>Same as /add &lt;user&gt;</li>
+</ul>
+</td></tr>
 <tr><td class="option-group">
 <kbd><span class="option">/check <var>&lt;user&gt;</var></span></kbd></td>
 <td><ul class="first last simple">
@@ -85,38 +116,36 @@
 <li>Sends a one-time, private notice to the broadcaster.</li>
 </ul>
 </td></tr>
-</tbody>
-</table>
-<dl class="docutils">
-<dt>/del &lt;user&gt; OR /du &lt;user&gt;</dt>
-<dd><ul class="first last simple">
+<tr><td class="option-group">
+<kbd><span class="option">/del <var>&lt;user&gt;</var></span></kbd></td>
+<td><ul class="first last simple">
 <li>Removes a user’s ticket.</li>
 </ul>
-</dd>
-</dl>
-<table class="docutils option-list" frame="void" rules="none">
-<col class="option" />
-<col class="description" />
-<tbody valign="top">
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/du <var>&lt;user&gt;</var></span></kbd></td>
+<td><ul class="first last simple">
+<li>Same as /del &lt;user&gt;</li>
+</ul>
+</td></tr>
 <tr><td class="option-group">
 <kbd><span class="option">/email</span></kbd></td>
 <td><ul class="first last simple">
 <li>Tells CrazyTicket to check for an email address in the tip note when a ticket is purchased and notifies the viewer, moderators, and broadcaster if the email address is missing.</li>
 </ul>
 </td></tr>
-</tbody>
-</table>
-<dl class="docutils">
-<dt>/hilite OR /hl</dt>
-<dd><ul class="first last simple">
+<tr><td class="option-group">
+<kbd><span class="option">/hilite</span></kbd></td>
+<td><ul class="first last simple">
 <li>Toggles highlighted text for ticket holders.</li>
 </ul>
-</dd>
-</dl>
-<table class="docutils option-list" frame="void" rules="none">
-<col class="option" />
-<col class="description" />
-<tbody valign="top">
+</td></tr>
+<tr><td class="option-group">
+<kbd><span class="option">/hl</span></kbd></td>
+<td><ul class="first last simple">
+<li>Same as /hilite</li>
+</ul>
+</td></tr>
 <tr><td class="option-group">
 <kbd><span class="option">/plist</span></kbd></td>
 <td><ul class="first last simple">
