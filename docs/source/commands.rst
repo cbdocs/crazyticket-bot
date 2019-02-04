@@ -32,7 +32,7 @@ Commands for Broadcasters and Moderators
 
 /addtime <minutes>
 	* Adds time to a running timer. A negative number will subtract time.
-	* Subtracting more time than is remaining will stop the timer with 1 minute remaining.
+	* Subtracting more time than remains will stop the timer with 1 minute remaining.
 
 /au <user>
 	* Same as /add <user>
@@ -51,8 +51,7 @@ Commands for Broadcasters and Moderators
         * Sends a one-time, public notice to the chat.
 
 /ctsubject <text>
-	* Changes the room subject to the text.
-	* New subject is displayed with 'CrazyTicket:' leader and 'Type /cmds' trailer.
+	* Changes the room subject to the text and adds a 'CrazyTicket:' leader and 'Type /cmds' trailer.
 
 /ctt <text>
 	* Sends a one-time, private notices to all ticket holders.
@@ -96,7 +95,7 @@ Commands for Broadcasters and Moderators
 	* Chat can still be seen by users without tickets. Notices can be sent to the public chat to advertise the ticket price to join the show.
 
 /starttimer <minutes>
-	* Starts a count down goal timer to indicate a timed ticket buying window to the viewers.
+	* Starts a count down goal timer to indicate a timed ticket buying window to viewers.
 
 /subject <text>
 	* Changes the room subject to the text entered after the command.
@@ -113,7 +112,7 @@ Commands for Broadcasters Only
 The following commands can only be used by the broadcaster.
 
 /ctprice <number>
-	* Changes the ticket price while CrazyTicket is running.
+	* Changes the price of tickets while CrazyTicket is running.
 
 /ctreset
 	* Clears all ticket holder lists and prepares CrazyTicket to begin sales for a new show.
