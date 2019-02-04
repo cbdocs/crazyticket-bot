@@ -110,6 +110,8 @@ Commands for Broadcasters and Moderators
 Commands for Broadcasters Only
 ------------------------------
 
+The following commands can only be used by the broadcaster.
+
 /ctprice <number>
 	* Changes the ticket price while CrazyTicket is running.
 
