@@ -38,8 +38,8 @@ Commands for Broadcasters and Moderators
 	* Same as /add <user>
 
 /check <user>
-        * Checks whether or not a viewer has a ticket.
-        * Multiple viewers may be checked at the same time by listing multiple space-separated usernames, e.g. /check user1 user2.
+	* Checks whether or not a viewer has a ticket.
+	* Multiple viewers may be checked at the same time by listing multiple space-separated usernames, e.g. /check user1 user2.
 
 /ctb <text>
 	* Sends a one-time, private notice to the broadcaster.
@@ -86,10 +86,10 @@ Commands for Broadcasters and Moderators
 	* ON/OFF toggle to suppress the public chat so it does not pollute the show chat.
 
 /showend
-        * Suspends ticket sales and clearly indicates to viewers entering the room that although the cam is still hidden, the show is over.
+	* Suspends ticket sales and clearly indicates to viewers entering the room that although the cam is still hidden, the show is over.
 
 /showover
-        * ON/OFF toggle to signal the show is nearing its end. Viewers entering the room will receive a notice that the show is nearing its end and buying a ticket is not recommended.
+	* ON/OFF toggle to signal the show is nearing its end. Viewers entering the room will receive a notice that the show is nearing its end and buying a ticket is not recommended.
 
 /startshow
 	* Starts a Hidden Cam show. Only ticket holders will be able to see the cam feed.
