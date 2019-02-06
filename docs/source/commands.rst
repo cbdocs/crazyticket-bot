@@ -31,6 +31,7 @@ Commands for Broadcasters and Moderators
 	* Note: If the output from /tickets is saved, it can be pasted after the /add command to restore tickets to users who purchased them.
 
 /addtime <minutes>
+
 	* Adds time to a running timer. A negative number will subtract time.
 	* Subtracting more time than remains will stop the timer with 1 minute remaining.
 
