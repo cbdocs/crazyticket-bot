@@ -13,13 +13,13 @@ Commands for All Users
 ----------------------
 
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-| ``/cmds``		| * Displays a list of commands in the chat window.											|
+| /cmds			| * Displays a list of commands in the chat window.											|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-| ``/pass``		| * Shows the user whether they have a pass or need to purchase one.									|
+| /pass			| * Shows the user whether they have a pass or need to purchase one.									|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-| ``/timeleft``		| * Displays the remaining time if a goal timer has been set.										|
+| /timeleft		| * Displays the remaining time if a goal timer has been set.										|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-| ``/showtime``		| * Displays the time elapsed since the Hidden Cam show started.									|
+| /showtime		| * Displays the time elapsed since the Hidden Cam show started.									|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 
 Commands for Broadcasters and Moderators
