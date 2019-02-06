@@ -77,7 +77,7 @@ Commands for Broadcasters and Moderators
 | /startshow		| * Starts a Hidden Cam show. Only ticket holders will be able to see the cam feed.							|
 |			| * Chat can still be seen by users without tickets. Notices can be sent to the chat to advertise the ticket price to join the show.	|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
-| /starttimer <minutes>	| * Starts a count down goal timer to indicate a timed ticket buying window to viewers.							|
+| /starttimer <min>	| * Starts a count down goal timer to indicate a timed ticket buying window to viewers.							|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
 | /subject <text>	| * Changes the room subject to the text entered after the command.									|
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------+
