@@ -30,7 +30,7 @@ Commands for Broadcasters and Moderators
 	* Multiple users can be added by listing multiple space-separated usernames, e.g. /add user1 user2.
 	* Note: If the output from /tickets is saved, it can be pasted after the /add command to restore tickets to users who purchased them.
 
-/addtime
+/addtime <minutes>
 	* Adds time to a running timer. A negative number will subtract time.
 	* Subtracting more time than remains will stop the timer with 1 minute remaining.
 
@@ -50,7 +50,7 @@ Commands for Broadcasters and Moderators
 /ctn <text>
         * Sends a one-time, public notice to the chat.
 
-/ctsubject
+/ctsubject <text>
 	* Changes the room subject to the text and adds a 'CrazyTicket:' leader and 'Type /cmds' trailer.
 
 /ctt <text>
@@ -94,10 +94,10 @@ Commands for Broadcasters and Moderators
 	* Starts a Hidden Cam show. Only ticket holders will be able to see the cam feed.
 	* Chat can still be seen by users without tickets. Notices can be sent to the public chat to advertise the ticket price to join the show.
 
-/starttimer
+/starttimer <minutes>
 	* Starts a count down goal timer to indicate a timed ticket buying window to viewers.
 
-/subject
+/subject <text>
 	* Changes the room subject to the text entered after the command.
 
 /stopshow
@@ -111,7 +111,7 @@ Commands for Broadcasters Only
 
 The following commands can only be used by the broadcaster.
 
-/ctprice
+/ctprice <number>
 	* Changes the price of tickets while CrazyTicket is running.
 
 /ctreset
